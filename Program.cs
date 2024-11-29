@@ -59,5 +59,5 @@ FirstFlag = CheckWin(FirstChoice, SecondChoice);
 SecondFlag = CheckWin(SecondChoice, FirstChoice);
 
 if (Draw == true) Console.WriteLine("Поздравляю, у вас НИЧЬЯ");
-if (FirstFlag == true) Console.WriteLine("Поздравляю, у вас ПОБЕДА ПЕРВОГО");
-if (SecondFlag == true) Console.WriteLine("Поздравляю, у вас ПОБЕДА ВТОРОГО");
+if (FirstFlag == true) Console.WriteLine("Поздравляю, ПЕРВЫЙ победил");
+if (SecondFlag == true) Console.WriteLine("Поздравляю, у вас ВТОРОЙ победил");
